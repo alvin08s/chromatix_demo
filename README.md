@@ -3,19 +3,25 @@ Qualcomm Camera Effect Project
 
 # Use method 
 
-1. git clone this project
+*  Download this project to your own computer
 
-2. unzip mm-camerasdk.zip and copy these files to C root disk
+* unzip mm-camerasdk.zip and copy these files to disk C  root
 
-3. copy "buildSo&push_win_v2.2.bat" script to chromatix project change below variables: 
+* copy "buildSo&push_win_v2.2.bat" script to chromatix project and change below variables: 
 <pre>
-BOARD_PLATFORM 
-HEADER_VERSION 
-INCLUDES_ROOT
+set BOARD_PLATFORM=msm8937
+set HEADER_VERSION=0309
+set INCLUDES_ROOT=C:\mm-camerasdk\includes
 </pre> 
-with your project's setting, and also, you may change the APP_PLATFORM to meet you android version.
+with your setting. 
 
-4. run the script, the final source file located in libs\armeabi-v7a
+And also, you may change the
+<pre>
+APP_PLATFORM=android-23 
+</pre>
+to meet you android version.
+
+* run the script, the final source file located in libs\armeabi-v7a
 
 
 
