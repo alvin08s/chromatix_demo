@@ -1,0 +1,17 @@
+multiCameraEnable=TRUE
+dualCamLtmEnable=TRUE
+singleIFESupportedWidth=5184
+singleIFESupportedHeight=3880
+dumpSensorEEPROMData=TRUE
+overrideLogLevels=15
+logInfoMask=0x10092
+minReprocessInputWidth=2304
+minReprocessInputHeight=1728
+enableNCSService=TRUE
+disableFocusIndication=0
+enableSensorHWSync=TRUE
+enableSensorFpsMatch=TRUE
+multiCameraFrameSync=1
+multiCamera3ASync=TRUE
+preFlashMaxFrameWaitLimitAF=30
+enableMCTF=TRUE
