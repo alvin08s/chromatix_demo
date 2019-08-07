@@ -7,16 +7,18 @@
 
 # 使用方法
 
-* 下载这个demo工程，里面包含了一个测试工程和需要的脚本已经头文件
+* 下载这个demo工程，里面包含了一个测试工程和需要的脚本以及头文件
 
 * 解压mm-camerasdk.zip文件，然后拷贝到C盘根目录下
 
-* 复制脚本"buildSo&push_win_v2.2.bat"到chromatix project然后根据项目实际配置修改如下信息：
+* 复制脚本"buildSo&push_win_v2.2.bat"到chromatix project然后根据项目实际配置修改如下信息（必须）：
 <pre>
 set BOARD_PLATFORM=msm8937
 set HEADER_VERSION=0309
 set INCLUDES_ROOT=C:\mm-camerasdk\includes
 </pre> 
+
+注：INCLUDES_ROOT就是当前头文件所放的路径，需要根据解压的目录来修改。
 
 同时，还需要根据当前项目使用的Android版本修改如下变量：
 <pre>
