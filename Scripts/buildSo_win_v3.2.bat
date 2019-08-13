@@ -81,7 +81,7 @@ set is-vendor-board-platform=true
 
 call ^
     ndk-build ^
-    APP_ABI=armeabi-v7a ^
+    APP_ABI=%APP_ABI% ^
     APP_PLATFORM=%ANDROID_VERSION% ^
     APP_ALLOW_MISSING_DEPS=true ^
     LOCAL_C_INCLUDES=%INCLUDES_ROOT%\%BOARD_PLATFORM%\%HEADER_VERSION% ^
